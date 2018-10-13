@@ -6,6 +6,7 @@
 		<!--Service s = new Service -->
 		<!--
 		scope="singleton 单例模式,每次使用的getBean都是第一次创建的对象，在mapper里面找"
-		scope="property 原型模式,每使用一个getBean就会创建一个对象,不会放入mapper里"-->
+		scope="property 原型模式,每使用一个getBean就会创建一个对象,不会放入mapper里"
+		-->
 <bean id="service" class="com.wxq.service.SomeService" 
-	  scope="singleton" init-method="init" destroy-method="destory"/></beans>
+      scope="singleton" init-method="init" destroy-method="destory"/></beans>
