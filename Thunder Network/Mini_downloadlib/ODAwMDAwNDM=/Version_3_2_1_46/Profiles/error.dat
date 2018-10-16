@@ -1,0 +1,7 @@
+[dl_crt]
+resolver=15000
+file_asyn_io_helper=8912
+asyn_io_manager=16812
+ns_ptl::udt_timer=9132
+wait_objects_thread=9412
+ns_ptl::intra_node_manager=14600
